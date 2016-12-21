@@ -503,7 +503,7 @@ body{background:#fff;}
 
 
 @media (min-width: 1200px) {
-	#pre_hero{ padding:10px 15px;}
+	#pre_hero{ padding:15px 15px;}
 
 	#pre_hero .lt{ max-width:initial; float: left; margin-bottom:0;}
 	#pre_hero .lt h4{ margin:0 15px 0 0; font-size:32px; font-weight:800;}
@@ -577,9 +577,26 @@ body{background:#fff;}
 
 @media (min-width: 1500px) {
 	#pre_hero .lt div:last-child{ display:inline-block}
+	#pre_hero {
+	    padding: 16px 15px;
+	}
 
+	#pre_hero .lt h4 {
+	    margin: 0 15px 0 0;
+	    font-size: 34px;
+	}
+	#pre_hero .lt div {
+	    margin-right: 15px;
+	    font-size: 20px;
+	    line-height: 22px;
+	}
 
-	#hero{  }
+	#pre_hero .rt{margin-top:2px}
+
+	#pre_hero .rt a {
+	    height: 43px;
+	    font-size: 20px;
+	}
 
 	#hero h2 { font-size: 72px; margin-top: 80px; margin-bottom: 30px; line-height: 66px; }
 	#hero h2 span{line-height:1.1em}
@@ -600,8 +617,17 @@ body{background:#fff;}
 	#content3 .row > div{ font-size:40px;line-height: 34px;margin-bottom:10px}
 	#content3 div span{ font-size:26px}
 
-	.vvb { height: 190px; width: 190px; }
+	.vvb { height: 190px; width: 190px; padding-top:65px; }
 	#content4 .vv { margin-right: 18.5px; }
+
+   	.vv{ font-size:18px; }
+
+    .vv:nth-child(1) .vvb{ padding-top:54px; padding-left:10px; padding-right:10px; }
+    .vv:nth-child(5) .vvb{ padding-left:10px; padding-right:10px; }
+    .vv:nth-child(6) .vvb{ padding-top:79px }
+
+
+
 
 	#content5 h3{ margin: 40px 0 20px; }
 
@@ -616,15 +642,59 @@ body{background:#fff;}
 }
 
 
-	@media (min-width: 1800px) {  
-		#content1 .title {max-width: 1670px;}
-		#content1 .title,
-		#content3 h3,
-		#content7 h3{  margin-top:40px}
+@media (min-width: 1800px) {  
 
-		#content3 .row > div{font-size:60px;line-height: 55px; height: 160px;}
-		#content3 .row > div span{font-size:32px; line-height: 40px;}
+	#pre_hero {
+	    padding: 24px 30px;
 	}
+
+	#pre_hero .lt h4 {
+	    margin: 0 25px 0 0;
+	    font-size: 36px;
+	}
+	#pre_hero .lt div {
+	    margin-right: 25px;
+	    font-size: 24px;
+	    line-height: 26px;
+	}
+
+	#pre_hero .rt a {
+	    height: 48px;
+	    font-size: 24px;
+	}
+	
+	#hero{padding-bottom:50px;}
+	
+	#hero h2 {
+	    font-size: 100px;
+		line-height:90px;
+	}
+
+	#hero .container{ width: 1750px; }
+
+	#hero .lt{ width:64% }
+	#hero .txt{ width:36% }
+
+	.hero_cta a.top_button {
+	  margin-bottom:55px
+	}
+	.hero_cta > span {
+	    font-size: 34px;
+	}
+
+
+	#content1 .title {max-width: 1670px;}
+	#content1 .title,
+	#content3 h3,
+	#content7 h3{  margin-top:40px}
+
+	#content3 .row > div{font-size:60px;line-height: 55px; }
+	#content3 .row > div span{font-size:32px; line-height: 40px;}	
+
+	#content3 div span { height: 130px; }
+	#content_more img { width: 200px; }
+
+}
 
 
 
