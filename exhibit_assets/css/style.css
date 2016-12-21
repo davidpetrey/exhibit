@@ -256,7 +256,8 @@ p{font-size:18px;}
 			padding: 25px 18px 20px;
 		}
 		.dropdown-menu>li>a{font-size:16px}
-		.desk .btn_sub{font-size: 20px; padding: 18px 20px 19px;  width: initial;}
+		.desk .btn_sub{ padding: 18px 20px 19px;  width: initial;}
+		.desk #searchsubmit{ padding: 18px 20px; width: initial; }
 	}
 
 	@media (min-width: 1500px) {
@@ -264,7 +265,8 @@ p{font-size:18px;}
 		.navbar > .container .navbar-brand { width: 400px; padding: 20px 0; }
 		.navbar-default .navbar-nav>li>a { font-size: 20px; padding: 29px 22px 23px; }
 		.dropdown-menu>li>a{font-size:20px}
-		.desk .btn_sub{font-size: 24px;padding: 19px 22px; width: initial;}
+		.desk .btn_sub{font-size: 24px;padding: 19px 22px;}
+		.desk #searchsubmit{ font-size: 24px; padding: 19px 22px; }
 	}
 
 
@@ -272,7 +274,8 @@ p{font-size:18px;}
 		.navbar > .container .navbar-brand { width: 450px; }
 		.navbar-default .navbar-nav>li>a { font-size: 24px; padding: 32px 25px 23px; }
 		.dropdown-menu>li>a{font-size:24px}
-		.desk .btn_sub{font-size: 24px;padding: 21px 25px; width: initial;}
+		.desk .btn_sub{ padding: 21px 25px; }
+		.desk #searchsubmit{ padding: 21px 25px; }
 	}
 /**************  End Menu Styles  ***********************************************************************/
 
